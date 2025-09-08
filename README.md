@@ -164,6 +164,13 @@ on:
   # 手动发布
   # workflow_dispatch: {}
 
+permissions:
+  contents: write
+  deployments: write
+  issues: write
+  pull-requests: write
+  id-token: write
+
 jobs:
   release:
     name: NPM
