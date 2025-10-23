@@ -5,7 +5,7 @@ on:
     secrets:
       NPM_TOKEN:
         description: 'npm token'
-        required: true
+        required: false
       GIT_TOKEN:
         description: 'github personal token'
         required: true
